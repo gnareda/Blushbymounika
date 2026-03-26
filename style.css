@@ -13,7 +13,7 @@
         /* Header */
         header { padding: 4rem 2rem; text-align: center; border-bottom: 1px solid #333; }
         h1 { font-size: 2.5rem; letter-spacing: 5px; text-transform: uppercase; }
-        .subtitle { color: var(--accent); letter-spacing: 2px; font-size: 0.9rem; margin-top: 10px; }
+        .subtitle { color: var(--accent); letter-spacing: 2px; font-size: 0.9rem; margin-top: 10px; margin-right: 33px;}
 
         /* Product Grid */
         .container {
@@ -120,6 +120,7 @@ html {
     border-bottom: 1px solid var(--accent);
     padding-bottom: 2px;
     transition: 0.3s;
+    margin-top: 14px;
 }
 
 .about-btn:hover {
@@ -182,30 +183,71 @@ html {
 }
 
 /* Ensure the pill sits at the bottom right */
+/* 1. The Container */
 .insta-pill-container {
     display: flex;
     align-items: flex-end;
+    perspective: 1000px; /* Adds depth for the hover effect */
 }
 
+/* 2. The Professional Pill */
 .insta-pill {
     display: flex;
     align-items: center;
     gap: 12px;
-    background: var(--glass);
-    backdrop-filter: blur(10px);
-    padding: 6px 6px 6px 15px;
+    background: rgba(255, 255, 255, 0.05); /* Subtle dark glass */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 8px 8px 8px 18px;
     border-radius: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     text-decoration: none;
     color: white;
-    transition: 0.3s ease-in-out;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy professional feel */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* 3. The Hover State */
+.insta-pill:hover {
+    background: var(--accent); /* Transitions to your Gold color */
+    color: #000; /* Text turns dark for readability on gold */
+    transform: translateY(-5px) scale(1.02); /* Lifts up slightly */
+    border: 1px solid var(--accent);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.4); /* Sophisticated Gold Glow */
+}
 
+/* 4. Icon Animation inside the pill */
+.insta-pill i {
+    font-size: 1.2rem;
+    transition: transform 0.4s ease;
+}
+
+.insta-pill:hover i {
+    transform: rotate(15deg) scale(1.2); /* Icon pops slightly when hovered */
+}
+
+/* 5. Text Info Adjustment */
 .insta-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start; /* Changed to start for better pill alignment */
+}
+
+.insta-info span:first-child {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.insta-info span:last-child {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Ensure text color changes on hover */
+.insta-pill:hover .insta-info span {
+    color: #000;
 }
 
 .handle {
@@ -549,6 +591,96 @@ footer {
     transform: translateY(-5px);
     opacity: 0.8;
 }
+
+/* Styling the Pricing and Promo Text */
+.price-box {
+    margin-bottom: 15px;
+}
+
+.promo-text {
+    color: var(--accent);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background: var(--bg);
+}
+
+.cat-btn {
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.cat-btn.active {
+    background: var(--accent);
+    color: black;
+    border-color: var(--accent);
+}
+
+.bundle-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--accent);
+    color: black;
+    padding: 4px 8px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+/* Combo Badge on Image */
+.bundle-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--accent);
+    color: #000;
+    padding: 4px 10px;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border-radius: 2px;
+    z-index: 5;
+}
+
+.offer-banner {
+    background: #111;
+    color: var(--accent);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-bottom: 1px solid #222;
+    letter-spacing: 1px;
+}
+
+/* Mobile Adjustments for Price */
+@media (max-width: 600px) {
+    .promo-text {
+        font-size: 0.65rem;
+    }
+    .product-info-overlay .price {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+}
+
 /* --- CLEAN & BEAUTIFUL MOBILE UI --- */
 @media (max-width: 600px) {
     /* 1. Stack Header Elements Vertically */
@@ -713,4 +845,41 @@ footer {
 
 #cart-sidebar.active {
     right: 0; /* Slides in */
+}
+/*filtering categories*/
+.category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 100;
+    border-bottom: 1px solid #222;
+}
+
+.cat-btn {
+    background: transparent;
+    border: 1px solid #444;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cat-btn.active, .cat-btn:hover {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+}
+
+@media (max-width: 600px) {
+    .category-nav { gap: 8px; padding: 10px; }
+    .cat-btn { padding: 6px 12px; font-size: 0.7rem; }
 }

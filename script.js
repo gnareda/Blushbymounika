@@ -1,6 +1,9 @@
 // Paste your 160 Direct Links from Postimages here inside the [ ]
-const suitImageLinks = [
-"https://i.postimg.cc/rsZ7nN8p/Product-(1).jpg",
+
+
+const inventory = {
+    women: [
+         "https://i.postimg.cc/rsZ7nN8p/Product-(1).jpg",
 "https://i.postimg.cc/6qbFjf9y/Product-(2).jpg",
 "https://i.postimg.cc/L5QGC3Hh/Product-(3).jpg",
 "https://i.postimg.cc/W18y8JVP/Product-(4).jpg",
@@ -159,48 +162,193 @@ const suitImageLinks = [
 "https://i.postimg.cc/jdKv1dZ4/Product-(157).jpg",
 "https://i.postimg.cc/BQgNf9V8/Product-(158).jpg",
 "https://i.postimg.cc/yYPnC4bX/Product-(159).jpg",
-"https://i.postimg.cc/kXcwP3py/Product-(160).jpg"
-];
+"https://i.postimg.cc/kXcwP3py/Product-(160).jpg",
+       
+    ],
+
+    girls: [
+"https://i.postimg.cc/J7XdgF8v/Product-(68).jpg",
+"https://i.postimg.cc/QxrnrqNP/Product-(70).jpg",
+"https://i.postimg.cc/yYzrzT6w/Product-(72).jpg",
+"https://i.postimg.cc/HsCPCtsc/Product-(75).jpg",
+"https://i.postimg.cc/9FtgXqrM/Product-(78).jpg",
+"https://i.postimg.cc/dVsHhtCt/Product-(94).jpg",
+"https://i.postimg.cc/CxcvkTCR/Product-(96).jpg",
+"https://i.postimg.cc/SQdWBmnb/Girls-Clothing(1).jpg",
+"https://i.postimg.cc/3R7vqq7F/Girls-Clothing(10).jpg",
+"https://i.postimg.cc/7htJfYzh/Girls-Clothing(11).jpg",
+"https://i.postimg.cc/MZ9QstLV/Girls-Clothing(12).jpg",
+"https://i.postimg.cc/02rJhDRR/Girls-Clothing(13).jpg",
+"https://i.postimg.cc/nc5Qxrpb/Girls-Clothing(14).jpg",
+"https://i.postimg.cc/L81g8S8j/Girls-Clothing(15).jpg",
+"https://i.postimg.cc/QMZ9BzBL/Girls-Clothing(16).jpg",
+"https://i.postimg.cc/Jh3yjQJm/Girls-Clothing(17).jpg",
+"https://i.postimg.cc/nc6M5WG7/Girls-Clothing(18).jpg",
+"https://i.postimg.cc/cHrrPG2t/Girls-Clothing(19).jpg",
+"https://i.postimg.cc/t4ZWnP2z/Girls-Clothing(2).jpg",
+"https://i.postimg.cc/JnvGLdCZ/Girls-Clothing(20).jpg",
+"https://i.postimg.cc/SsJJHb3W/Girls-Clothing(21).jpg",
+"https://i.postimg.cc/3JMdf6B3/Girls-Clothing(22).jpg",
+"https://i.postimg.cc/RCJWR9c4/Girls-Clothing(23).jpg",
+"https://i.postimg.cc/QxLHYPbD/Girls-Clothing(24).jpg",
+"https://i.postimg.cc/fT4JqFKD/Girls-Clothing(25).jpg",
+"https://i.postimg.cc/qM8gPLbX/Girls-Clothing(26).jpg",
+"https://i.postimg.cc/mgBhBHJJ/Girls-Clothing(27).jpg",
+"https://i.postimg.cc/JzMtMkvY/Girls-Clothing(28).jpg",
+"https://i.postimg.cc/Bn4t4Kkr/Girls-Clothing(29).jpg",
+"https://i.postimg.cc/XYRFfJzC/Girls-Clothing(3).jpg",
+"https://i.postimg.cc/x158CdSC/Girls-Clothing(30).jpg",
+"https://i.postimg.cc/zffBR1zm/Girls-Clothing(31).jpg",
+"https://i.postimg.cc/s202Y0xs/Girls-Clothing(32).jpg",
+"https://i.postimg.cc/mr6rY6D5/Girls-Clothing(33).jpg",
+"https://i.postimg.cc/VNHNqHvs/Girls-Clothing(34).jpg",
+"https://i.postimg.cc/DZ9yDJ15/Girls-Clothing(35).jpg",
+"https://i.postimg.cc/XJR7hG9P/Girls-Clothing(36).jpg",
+"https://i.postimg.cc/xCwT7JK9/Girls-Clothing(37).jpg",
+"https://i.postimg.cc/1XD5ZmHh/Girls-Clothing(38).jpg",
+"https://i.postimg.cc/NFRfws42/Girls-Clothing(39).jpg",
+"https://i.postimg.cc/JzDZHJPs/Girls-Clothing(4).jpg",
+"https://i.postimg.cc/1XD5ZmHf/Girls-Clothing(40).jpg",
+"https://i.postimg.cc/Y0Qqwr3g/Girls-Clothing(41).jpg",
+"https://i.postimg.cc/DfGzG6KM/Girls-Clothing(42).jpg",
+"https://i.postimg.cc/WpZ4Z8v2/Girls-Clothing(43).jpg",
+"https://i.postimg.cc/Prk5QDXQ/Girls-Clothing(44).jpg",
+"https://i.postimg.cc/rwVyvLtq/Girls-Clothing(45).jpg",
+"https://i.postimg.cc/T3d2ZX5z/Girls-Clothing(46).jpg",
+"https://i.postimg.cc/htD4Hq7F/Girls-Clothing(47).jpg",
+"https://i.postimg.cc/13mRLZNz/Girls-Clothing(48).jpg",
+"https://i.postimg.cc/DzmvwdgP/Girls-Clothing(49).jpg",
+"https://i.postimg.cc/CxBknDmG/Girls-Clothing(5).jpg",
+"https://i.postimg.cc/13vRSYpB/Girls-Clothing(50).jpg",
+"https://i.postimg.cc/zGxDNPnp/Girls-Clothing(51).jpg",
+"https://i.postimg.cc/zf3zGSjS/Girls-Clothing(52).jpg",
+"https://i.postimg.cc/856Thpxw/Girls-Clothing(53).jpg",
+"https://i.postimg.cc/856ThpxZ/Girls-Clothing(54).jpg",
+"https://i.postimg.cc/PJnTKGky/Girls-Clothing(55).jpg",
+"https://i.postimg.cc/bJtqQy4B/Girls-Clothing(56).jpg",
+"https://i.postimg.cc/GtPr5MLc/Girls-Clothing(57).jpg",
+"https://i.postimg.cc/kGN9pjJg/Girls-Clothing(58).jpg",
+"https://i.postimg.cc/Y2Qp0S6B/Girls-Clothing(59).jpg",
+"https://i.postimg.cc/TPnbCx86/Girls-Clothing(6).jpg",
+"https://i.postimg.cc/c1fsCJRS/Girls-Clothing(60).jpg",
+"https://i.postimg.cc/3r2KNwX3/Girls-Clothing(62).jpg",
+"https://i.postimg.cc/02x9wqnM/Girls-Clothing(65).jpg",
+"https://i.postimg.cc/5N1fCMgF/Girls-Clothing(66).jpg",
+"https://i.postimg.cc/ZKZJdhH8/Girls-Clothing(67).jpg",
+"https://i.postimg.cc/dtBwRSNx/Girls-Clothing(69).jpg",
+"https://i.postimg.cc/3w2GnhMJ/Girls-Clothing(7).jpg",
+"https://i.postimg.cc/Yq3MNyDT/Girls-Clothing(70).jpg",
+"https://i.postimg.cc/y88BLXwK/Girls-Clothing(74).jpg",
+"https://i.postimg.cc/pLLxsYgX/Girls-Clothing(75).jpg",
+"https://i.postimg.cc/VkZwp08K/Girls-Clothing(76).jpg",
+"https://i.postimg.cc/W1YVCqvW/Girls-Clothing(77).jpg",
+"https://i.postimg.cc/K8pbw32H/Girls-Clothing(78).jpg",
+"https://i.postimg.cc/XvZWbNjx/Girls-Clothing(79).jpg",
+"https://i.postimg.cc/W3jkyyjp/Girls-Clothing(8).jpg",
+"https://i.postimg.cc/XvZWbNjR/Girls-Clothing(80).jpg",
+"https://i.postimg.cc/k5VCmMMd/Girls-Clothing(81).jpg",
+"https://i.postimg.cc/7LpkYvbq/Girls-Clothing(82).jpg",
+"https://i.postimg.cc/3wPTJMWr/Girls-Clothing(83).jpg",
+"https://i.postimg.cc/PqBjrGNv/Girls-Clothing(84).jpg",
+"https://i.postimg.cc/5tZVNcjz/Girls-Clothing(85).jpg",
+"https://i.postimg.cc/j5PrD8J1/Girls-Clothing(86).jpg",
+"https://i.postimg.cc/V6ncJ7Cc/Girls-Clothing(87).jpg",
+"https://i.postimg.cc/B6HGjhK0/Girls-Clothing(88).jpg",
+"https://i.postimg.cc/FR3QYPL5/Girls-Clothing(89).jpg",
+"https://i.postimg.cc/mDRHnnRk/Girls-Clothing(9).jpg",
+"https://i.postimg.cc/8cGgMhh2/Girls-Clothing(90).jpg",
+"https://i.postimg.cc/Fzx5Z7pY/Girls-Clothing(91).jpg",
+"https://i.postimg.cc/NFxq45D5/Girls-Clothing(92).jpg"
+    ],
+    skirts: [
+
+    ],
+    anarkali: [
+
+    ]
+};
+
+
+
+// If you have 20 Skirts named 'skirt1.jpg', 'skirt2.jpg' in your images folder:
+for (let i = 1; i <= 260; i++) {
+    inventory.skirts.push(`skirts/Skirtgoldentux${i}.jpeg`);
+}
+
+// If you have 30 Anarkalis named 'anarkali1.jpg', etc. in your images folder:
+for (let i = 1; i <= 99; i++) {
+    inventory.anarkali.push(`anarkali kurti/anarkali${i}.jpeg`);
+}
+
 
 const grid = document.getElementById('product-grid');
 const myNumber = "9509018314";
 let cart = [];
 
+// --- 1. UNIQUE NAME GENERATOR ---
+const luxuryColors = ["Royal", "Emerald", "Golden", "Midnight", "Ethereal", "Velvet", "Saffron", "Ivory", "Divine", "Vintage", "Ruby", "Majestic", "Crimson", "Azure", "Pearl", "Obsidian", "Opal", "Rosewood", "Amethyst", "maroon", "Turquoise", "Scarlet", "Silver", "Amber", "Violet"];
 
-const colors = ["Ivory", "Midnight", "Champagne", "Onyx", "Emerald", "Dusty Rose", "Cerulean", "Charcoal", "Crimson", "Sage"];
-const fabrics = ["Silk", "Wool-Blend", "Linen", "Velvet", "Crepe", "Satin-Trimmed"];
-const styles = ["Tailored Suit", "Oversized Set", "Tuxedo Suit", "Double-Breasted Suit", "Slim-Fit Power Suit", "Structured Co-ord", "Wide-Leg Suit"];
+const luxuryFabrics = ["Silk", "Satin", "Chiffon", "Organza", "Georgette", "Crepe", "Linen", "Tulle", "Lace", "Brocade", "Velour", "Jacquard", "Taffeta", "Muslin", "Voile", "Denim", "Viscose", "Mulmul", "Pashmina", "Chanderi"];
 
-// Function to generate a unique name for each of the 160 images
-function generateSuitName(i) {
-    const color = colors[i % colors.length];
-    const fabric = fabrics[i % fabrics.length];
-    const style = styles[i % styles.length];
-    return `${color} ${fabric} ${style}`;
+const luxuryTitles = ["Grace", "Elegance", "Heritage", "Glow", "Dream", "Charm", "Aura", "Blossom", "Radiance", "Starlight", "Couture", "Whisp", "Petal", "Symphony", "Enchant", "Majesty", "Essence", "Beloved", "Serenity", "Bliss"];
+
+function generateUniqueName(index) {
+    // Math logic to pick a unique combination for every index
+    const color = luxuryColors[index % luxuryColors.length];
+    const fabric = luxuryFabrics[(index + 5) % luxuryFabrics.length];
+    const title = luxuryTitles[(index * 7) % luxuryTitles.length];
+
+    // Example: "Emerald Silk Radiance" or "Midnight Organza Dream"
+    return `${color} ${fabric} ${title}`;
 }
+function renderProducts(categoryFilter = 'all') {
+    const grid = document.getElementById('product-grid');
+    grid.innerHTML = ''; 
 
-for (let i = 0; i < suitImageLinks.length; i++) {
-    const liveImgPath = suitImageLinks[i]; // Uses the Postimg link
-    const localImgPath = `images/Product (${i + 1}).jpeg`; // For your website display
-    const suitName = generateSuitName(i); 
-    const price = 295;
+    let globalIndex = 0; // Ensures every dress in the whole shop gets a unique name
 
-    const card = document.createElement('div');
-    card.className = 'product-card';
-    card.setAttribute('data-id', i + 1);
+    for (const category in inventory) {
+        inventory[category].forEach((link, index) => {
+            // Check if we should show this category
+            if (categoryFilter === 'all' || categoryFilter === category) {
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                
+                // Get the big 3-word luxury name
+                const uniqueName = generateUniqueName(globalIndex);
+
+                card.innerHTML = `
+                    <div class="product-img">
+                        <img src="${link}" alt="${uniqueName}" onerror="this.src='https://via.placeholder.com/300x400?text=Fashion'">
+                        <div class="bundle-tag">${category.toUpperCase()}</div>
+                    </div>
+                    <div class="product-info-overlay">
+                        <h3>${uniqueName}</h3>
+                        <div class="price-box">
+                            <p class="price">₹650</p>
+                            <p class="promo-text">Buy 3 for ₹1250</p>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('${uniqueName}', 650, '${link}')">Add to Bag</button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            }
+            // Increase index regardless of filter so names stay "locked" to the image
+            globalIndex++; 
+        });
+    }
+}
+// --- 3. FIX THE FILTER BUTTONS ---
+function filterCategory(cat, btnElement) {
+    // If you pass the button element, it will highlight it
+    document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
+    if(btnElement) btnElement.classList.add('active');
     
-    card.innerHTML = `
-        <div class="product-img">
-            <img src="${localImgPath}" alt="${suitName}" onerror="this.src='https://via.placeholder.com/300x400?text=Suit'">
-        </div>
-        <div class="product-info-overlay">
-            <h3>${suitName}</h3>
-            <p class="price">₹${price}</p>
-            <button class="add-to-cart-btn"onclick="addToCart('${suitName}', ${price}, '${liveImgPath}')">Add to Bag</button>
-        </div>
-    `;
-    grid.appendChild(card);
+    renderProducts(cat);
 }
+
+// Initial load
+renderProducts('all');
 
 function addToCart(name, price, img) {
     cart.push({ name, price, img });
@@ -219,19 +367,28 @@ function updateUI() {
     const list = document.getElementById('cart-items-list');
     const totalDisplay = document.getElementById('cart-total');
     
-    
     count.innerText = cart.length;
-    let total = 0;
     list.innerHTML = "";
     
+    let total = 0;
+    let itemCount = cart.length;
+
+    // Apply Client's Pricing Rules
+    if (itemCount === 1) {
+        total = 650;
+    } else if (itemCount === 2) {
+        total = 1050;
+    } else if (itemCount >= 3) {
+        total = 1250 + (itemCount - 3) * 400; 
+    }
+    
     cart.forEach((item, index) => {
-        total += item.price;
         list.innerHTML += `
             <div class="cart-item">
                 <img src="${item.img}" class="cart-item-img">
                 <div class="cart-item-info">
                     <p>${item.name}</p>
-                    <span>₹${item.price}</span>
+                    <span>Selected</span>
                 </div>
                 <span class="remove-btn" onclick="removeFromCart(${index})">Remove</span>
             </div>
@@ -240,6 +397,7 @@ function updateUI() {
     
     totalDisplay.innerText = total;
 }
+
 
 function toggleCart() {
     document.getElementById('cart-sidebar').classList.toggle('active');
@@ -340,5 +498,3 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
-
-
