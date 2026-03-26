@@ -1,0 +1,716 @@
+
+ :root {
+            --accent: #d4af37; 
+            --bg: #0a0a0a;    
+            --text: #ffffff;
+            --card-bg: #1a1a1a;
+            --whatsapp: #25D366;
+ }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background-color: var(--bg); color: var(--text); overflow-x: hidden; }
+
+        /* Header */
+        header { padding: 4rem 2rem; text-align: center; border-bottom: 1px solid #333; }
+        h1 { font-size: 2.5rem; letter-spacing: 5px; text-transform: uppercase; }
+        .subtitle { color: var(--accent); letter-spacing: 2px; font-size: 0.9rem; margin-top: 10px; }
+
+        /* Product Grid */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+/* Container for the product card */
+.product-card {
+    position: relative;
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden; /* Important: keeps the overlay inside the card */
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid #222;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+/* Image styling */
+.product-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+    display: block;
+}
+
+.product-card:hover .product-img img {
+    transform: scale(1.1); /* Subtle zoom on hover */
+    filter: brightness(60%); /* Dims the image to make text pop */
+}
+
+/* The Secret Hover Overlay */
+.product-info-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 20px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+    transform: translateY(100%); /* Hidden below the card initially */
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+    text-align: center;
+}
+
+.product-card:hover .product-info-overlay {
+    transform: translateY(0); /* Slides up into view */
+    opacity: 1;
+}
+
+/* Styling the text inside the hover */
+.product-info-overlay h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.product-info-overlay .price {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+    
+
+/* Professional Header Layout */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Smooth Scroll for the whole page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* About Button Styling */
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.about-btn {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 2px;
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    color: var(--accent);
+}
+
+
+
+.insta-text {
+    display: flex;
+    flex-direction: column; /* Stacked layout: Icon + Name */
+    align-items: flex-end;
+}
+
+.insta-text i {
+    font-size: 1.4rem; /* Medium-Big Icon */
+    margin-bottom: 2px;
+    color: var(--accent); /* Your gold/accent color */
+}
+
+.insta-text span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+}
+
+.insta-container{
+    display: flex;
+    align-items: start;
+    width: fit-content;
+  
+}
+
+
+.insta-profile:hover {
+    transform: scale(1.05);
+}
+
+.insta-profile:hover .brand-avatar {
+    box-shadow: 0 0 15px var(--accent);
+}
+
+
+/* Update the header content to allow bottom alignment */
+.header-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end; /* This pushes both Logo and Pill to the bottom */
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 5px; /* Moves it slightly up from the border line */
+}
+
+/* Ensure the logo sits at the bottom left */
+.logo-area {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+/* Ensure the pill sits at the bottom right */
+.insta-pill-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.insta-pill {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    padding: 6px 6px 6px 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+.insta-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.handle {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.status {
+    font-size: 0.65rem;
+    color: #888;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: #4caf50; /* Green Online Dot */
+    border-radius: 50%;
+    box-shadow: 0 0 5px #4caf50;
+}
+
+.brand-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent);
+}
+
+
+
+
+.logo {
+    text-align: left;
+    margin: 0;
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+}
+
+
+
+.insta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 8px; /* Perfectly centers text with the avatar */
+}
+
+.brand-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent);
+}
+
+
+
+
+
+
+        .price { color: var(--accent); font-size: 1.4rem; margin: 15px 0; font-weight: bold; }
+
+        /* Buttons */
+        .add-to-cart-btn {
+            background-color: var(--accent);
+            color: black;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .add-to-cart-btn:hover { background-color: #f1c40f; }
+
+        /* Floating Cart Icon */
+        #cart-icon {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: var(--text);
+            color: black;
+            padding: 15px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            z-index: 1000;
+            font-weight: bold;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        #cart-icon:hover{
+             transform: translateY(3px);
+    border-color: var(--accent);
+    
+        }
+
+        #cart-count { background: var(--accent); padding: 2px 8px; border-radius: 50%; margin-left: 5px; }
+
+        /* Sidebar Cart */
+        #cart-sidebar {
+            position: fixed;
+            right: -400px;
+            top: 0;
+            width: 350px;
+            height: 100%;
+            background: #111;
+            box-shadow: -10px 0 30px rgba(0,0,0,0.8);
+            transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 1001;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #cart-sidebar.active { right: 0; }
+
+        .cart-header { padding: 25px; border-bottom: 1px solid #333; display: flex; justify-content: space-between; align-items: center; }
+
+        #cart-items-list { flex-grow: 1; padding: 20px; overflow-y: auto; }
+
+        
+        .cart-footer { padding: 25px; border-top: 1px solid #333; background: #111; }
+
+        .checkout-btn {
+            background-color: var(--whatsapp);
+            color: white;
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+
+
+footer {
+    background-color: #000;
+    padding: 60px 5% 20px 5%;
+    border-top: 1px solid #222;
+    color: #fff;
+    text-align: left; /* Luxury brands usually align left or center */
+    opacity: 1; /* Changed from your 0.3 opacity for better readability */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    color: var(--accent); /* Uses your gold color */
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: #888;
+    max-width: 500px;
+}
+
+.footer-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.footer-socials a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.footer-socials a:hover {
+    color: var(--accent);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #111;
+    font-size: 0.75rem;
+    color: #444;
+    letter-spacing: 2px;
+}
+
+/* Mobile Fix */
+
+
+        /* Cart Item Layout */
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #222;
+}
+
+.cart-item-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--accent);
+}
+
+.cart-item-info {
+    flex-grow: 1;
+}
+
+.cart-item-info p {
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.cart-item-info span {
+    color: var(--accent);
+    font-size: 0.8rem;
+}
+
+.remove-btn {
+    color: #ff4d4d;
+    font-size: 0.7rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 15px;
+}
+
+#suitSearch {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    border: 1px solid #333;
+    background: #111;
+    color: white;
+    border-radius: 25px;
+    font-family: inherit;
+    outline: none;
+    transition: 0.3s;
+}
+
+#suitSearch:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+/* The main grid that holds your 160 suits */
+#product-grid {
+    display: grid;
+    /* On Desktop: 4 columns. On Tablet: 3. On Mobile: 2. */
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 15px; /* Space between the suits */
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- SEARCH BAR (DESKTOP) --- */
+.search-container {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 0 20px;
+    transition: all 0.4s ease;
+}
+
+ .search-inner {
+    display: flex;
+    align-items: center;
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 50px;
+    padding: 5px 20px;
+    transition: 0.3s;
+} 
+
+.search-inner:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+.search-inner-icon {
+    color: #555;
+    margin-right: 15px;
+}
+
+#suitSearch {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 12px 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-icon-btn, .mobile-only-btn { display: none; } /* Hidden on PC */
+
+/* --- BACK TO TOP FOOTER BUTTON --- */
+.back-to-top {
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    color: var(--accent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+    opacity: 0.8;
+}
+/* --- CLEAN & BEAUTIFUL MOBILE UI --- */
+@media (max-width: 600px) {
+    /* 1. Stack Header Elements Vertically */
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .logo-area {
+        text-align: center;
+    }
+
+    .header-nav {
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* 2. Search Icon & Mobile Panel */
+    .search-icon-btn {
+        display: block; 
+        margin: 10px auto;
+        background: none;
+        border: 1.5px solid var(--accent);
+        color: var(--accent);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .search-container {
+        display: none; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        background: #000;
+        z-index: 3000;
+        padding: 10px 15px;
+        margin: 0;
+        align-items: center;
+        border-bottom: 1px solid #333;
+    }
+
+    .search-container.active {
+        display: flex; /* Opens beautiful top panel */
+    }
+
+    .mobile-only-btn {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+
+    /* 3. The 2-Column Grid (See images clearly without too much scroll) */
+    #product-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .product-img img {
+        height: 230px; /* Perfect height for 2-column view */
+    }
+
+    /* 4. Fix Product Info for Mobile (since hover doesn't exist) */
+    .product-info-overlay {
+        position: static; /* Always visible below image */
+        transform: none;
+        opacity: 1;
+        background: #111;
+        padding: 12px 8px;
+    }
+
+    .product-info-overlay h3 {
+        font-size: 0.85rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; /* Keeps text on one line */
+    }
+
+    .product-info-overlay .price {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .add-to-cart-btn {
+        padding: 10px;
+        font-size: 0.75rem;
+        border-radius: 4px;
+    }
+
+ /* --- Inside your @media (max-width: 600px) block --- */
+
+    /* Adjust Cart Icon for mobile: Floating at the bottom like PC */
+    #cart-icon {
+        position: fixed;
+        top: auto;        /* Removes the top positioning */
+        bottom: 20px;     /* Floats at the bottom */
+        right: 20px;      /* Stays on the right */
+        left: auto;
+        padding: 12px 18px;
+        font-size: 0.8rem;
+        width: auto;      /* Prevents it from stretching wide */
+        min-width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+        background: var(--text); /* Black/White theme like your PC version */
+        color: #000;
+        z-index: 9999;    /* Ensures it stays above images */
+    }
+
+    /* 1. STABILITY LOCK: Prevent the right-left wiggle */
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+    }
+
+    header, .header-content {
+        max-width: 100vw;
+        overflow: hidden;
+    }
+}
+
+/* --- BACK TO TOP BUTTON (Footer) --- */
+.back-to-top {
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    color: var(--accent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#cart-sidebar {
+    position: fixed;
+    right: -100%; /* Hidden by default */
+    top: 0;
+    width: 85%; /* Covers most of the phone screen */
+    max-width: 400px;
+    height: 100%;
+    background: #000;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+}
+
+#cart-sidebar.active {
+    right: 0; /* Slides in */
+}
