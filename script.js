@@ -3,7 +3,7 @@
 
 const inventory = {
     women: [
-         "https://i.postimg.cc/rsZ7nN8p/Product-(1).jpg",
+"https://i.postimg.cc/rsZ7nN8p/Product-(1).jpg",
 "https://i.postimg.cc/6qbFjf9y/Product-(2).jpg",
 "https://i.postimg.cc/L5QGC3Hh/Product-(3).jpg",
 "https://i.postimg.cc/W18y8JVP/Product-(4).jpg",
@@ -261,28 +261,439 @@ const inventory = {
 "https://i.postimg.cc/NFxq45D5/Girls-Clothing(92).jpg"
     ],
     skirts: [
-
+"https://i.postimg.cc/5NfSpPNy/Skirtgoldentux(1).jpg",
+"https://i.postimg.cc/Yqtz8Xqz/Skirtgoldentux(10).jpg",
+"https://i.postimg.cc/k4xWv8rr/Skirtgoldentux(100).jpg",
+"https://i.postimg.cc/63dCfRsJ/Skirtgoldentux(101).jpg",
+"https://i.postimg.cc/7hw0s64B/Skirtgoldentux(102).jpg",
+"https://i.postimg.cc/Rh4KsFmy/Skirtgoldentux(103).jpg",
+"https://i.postimg.cc/rsMxnmTv/Skirtgoldentux(104).jpg",
+"https://i.postimg.cc/x8nMxCYr/Skirtgoldentux(105).jpg",
+"https://i.postimg.cc/rsMxnmcL/Skirtgoldentux(106).jpg",
+"https://i.postimg.cc/7hw0s6Dk/Skirtgoldentux(107).jpg",
+"https://i.postimg.cc/PJTY3xhh/Skirtgoldentux(108).jpg",
+"https://i.postimg.cc/nrpBRzZF/Skirtgoldentux(109).jpg",
+"https://i.postimg.cc/GhbxzMhj/Skirtgoldentux(11).jpg",
+"https://i.postimg.cc/QCh14tsx/Skirtgoldentux(110).jpg",
+"https://i.postimg.cc/rsMxnmcK/Skirtgoldentux(111).jpg",
+"https://i.postimg.cc/zv8KtB5y/Skirtgoldentux(112).jpg",
+"https://i.postimg.cc/90bTvhFW/Skirtgoldentux(113).jpg",
+"https://i.postimg.cc/yxj9wHY8/Skirtgoldentux(114).jpg",
+"https://i.postimg.cc/5ygvZVNy/Skirtgoldentux(115).jpg",
+"https://i.postimg.cc/MH5RhSKT/Skirtgoldentux(116).jpg",
+"https://i.postimg.cc/j2cNGbdC/Skirtgoldentux(117).jpg",
+"https://i.postimg.cc/x85HW2Tb/Skirtgoldentux(118).jpg",
+"https://i.postimg.cc/XqLFTb7F/Skirtgoldentux(119).jpg",
+"https://i.postimg.cc/CLwsJvLN/Skirtgoldentux(12).jpg",
+"https://i.postimg.cc/hvsxHBPV/Skirtgoldentux(120).jpg",
+"https://i.postimg.cc/qqwn9TM8/Skirtgoldentux(121).jpg",
+"https://i.postimg.cc/0jnmLs2Y/Skirtgoldentux(122).jpg",
+"https://i.postimg.cc/rsjWvkFg/Skirtgoldentux(123).jpg",
+"https://i.postimg.cc/ZnH31SKV/Skirtgoldentux(124).jpg",
+"https://i.postimg.cc/vTh9psHP/Skirtgoldentux(125).jpg",
+"https://i.postimg.cc/SQfWXWLH/Skirtgoldentux(126).jpg",
+"https://i.postimg.cc/sf4pBp9R/Skirtgoldentux(127).jpg",
+"https://i.postimg.cc/G3xkBkPW/Skirtgoldentux(128).jpg",
+"https://i.postimg.cc/v8tW1WLs/Skirtgoldentux(129).jpg",
+"https://i.postimg.cc/gkGH4Mks/Skirtgoldentux(13).jpg",
+"https://i.postimg.cc/1RrpgpcS/Skirtgoldentux(130).jpg",
+"https://i.postimg.cc/7PngCgMC/Skirtgoldentux(131).jpg",
+"https://i.postimg.cc/FFVjfjgz/Skirtgoldentux(132).jpg",
+"https://i.postimg.cc/kMvxVxFB/Skirtgoldentux(133).jpg",
+"https://i.postimg.cc/HW9QJQ4r/Skirtgoldentux(134).jpg",
+"https://i.postimg.cc/Y2z141fg/Skirtgoldentux(135).jpg",
+"https://i.postimg.cc/xj3KkKyL/Skirtgoldentux(136).jpg",
+"https://i.postimg.cc/BZBx8xcx/Skirtgoldentux(137).jpg",
+"https://i.postimg.cc/4N4ppmBm/Skirtgoldentux(138).jpg",
+"https://i.postimg.cc/sDf55vwZ/Skirtgoldentux(139).jpg",
+"https://i.postimg.cc/ZKJxjfKj/Skirtgoldentux(14).jpg",
+"https://i.postimg.cc/NfGRR5pH/Skirtgoldentux(140).jpg",
+"https://i.postimg.cc/15RDDfJ6/Skirtgoldentux(141).jpg",
+"https://i.postimg.cc/8PkLLjtL/Skirtgoldentux(142).jpg",
+"https://i.postimg.cc/656CCyY0/Skirtgoldentux(143).jpg",
+"https://i.postimg.cc/jdqyyLZc/Skirtgoldentux(144).jpg",
+"https://i.postimg.cc/HsWbbVBZ/Skirtgoldentux(145).jpg",
+"https://i.postimg.cc/yY600kvr/Skirtgoldentux(146).jpg",
+"https://i.postimg.cc/Gh3vvHqf/Skirtgoldentux(147).jpg",
+"https://i.postimg.cc/5N9886nG/Skirtgoldentux(148).jpg",
+"https://i.postimg.cc/VL7ngmVR/Skirtgoldentux(149).jpg",
+"https://i.postimg.cc/NfQkbNfN/Skirtgoldentux(15).jpg",
+"https://i.postimg.cc/BQhHp4VN/Skirtgoldentux(150).jpg",
+"https://i.postimg.cc/sDn7msNw/Skirtgoldentux(151).jpg",
+"https://i.postimg.cc/RVPKd4DP/Skirtgoldentux(152).jpg",
+"https://i.postimg.cc/X72dL4zz/Skirtgoldentux(153).jpg",
+"https://i.postimg.cc/dtWr6wxX/Skirtgoldentux(154).jpg",
+"https://i.postimg.cc/8PyM4N0q/Skirtgoldentux(155).jpg",
+"https://i.postimg.cc/dtWr6wfM/Skirtgoldentux(156).jpg",
+"https://i.postimg.cc/15WwBsd1/Skirtgoldentux(157).jpg",
+"https://i.postimg.cc/bN6kgp58/Skirtgoldentux(158).jpg",
+"https://i.postimg.cc/HsSXzdNm/Skirtgoldentux(159).jpg",
+"https://i.postimg.cc/28C7TH80/Skirtgoldentux(16).jpg",
+"https://i.postimg.cc/dtWr6wfV/Skirtgoldentux(160).jpg",
+"https://i.postimg.cc/5NPLgbrt/Skirtgoldentux(161).jpg",
+"https://i.postimg.cc/NfNmDBnF/Skirtgoldentux(162).jpg",
+"https://i.postimg.cc/HkV5PFGC/Skirtgoldentux(163).jpg",
+"https://i.postimg.cc/MpvRrgkS/Skirtgoldentux(164).jpg",
+"https://i.postimg.cc/fRJXg14s/Skirtgoldentux(165).jpg",
+"https://i.postimg.cc/QdH5nvLj/Skirtgoldentux(166).jpg",
+"https://i.postimg.cc/3xdpbzMK/Skirtgoldentux(167).jpg",
+"https://i.postimg.cc/cLrY5Pqx/Skirtgoldentux(168).jpg",
+"https://i.postimg.cc/jSLNkBVq/Skirtgoldentux(169).jpg",
+"https://i.postimg.cc/65BfzH5j/Skirtgoldentux(17).jpg",
+"https://i.postimg.cc/6pyR1Fsp/Skirtgoldentux(170).jpg",
+"https://i.postimg.cc/VkdMH2yv/Skirtgoldentux(171).jpg",
+"https://i.postimg.cc/htfx3NFz/Skirtgoldentux(172).jpg",
+"https://i.postimg.cc/x1cHFBrN/Skirtgoldentux(173).jpg",
+"https://i.postimg.cc/13f6Ybxq/Skirtgoldentux(174).jpg",
+"https://i.postimg.cc/kgB8hLrS/Skirtgoldentux(175).jpg",
+"https://i.postimg.cc/GmHYS60G/Skirtgoldentux(176).jpg",
+"https://i.postimg.cc/cLrY5Pqf/Skirtgoldentux(177).jpg",
+"https://i.postimg.cc/GmHYS60P/Skirtgoldentux(178).jpg",
+"https://i.postimg.cc/0ybmHhgd/Skirtgoldentux(179).jpg",
+"https://i.postimg.cc/WbS6yMhM/Skirtgoldentux(18).jpg",
+"https://i.postimg.cc/dVpdMnvC/Skirtgoldentux(180).jpg",
+"https://i.postimg.cc/9QKT31Vq/Skirtgoldentux(181).jpg",
+"https://i.postimg.cc/52Tvcp1B/Skirtgoldentux(182).jpg",
+"https://i.postimg.cc/GmVY0zrP/Skirtgoldentux(183).jpg",
+"https://i.postimg.cc/RZyfrG9Q/Skirtgoldentux(184).jpg",
+"https://i.postimg.cc/VkpMy41F/Skirtgoldentux(185).jpg",
+"https://i.postimg.cc/ht6xFMgs/Skirtgoldentux(186).jpg",
+"https://i.postimg.cc/MpNRktxt/Skirtgoldentux(187).jpg",
+"https://i.postimg.cc/sgqSFKyn/Skirtgoldentux(188).jpg",
+"https://i.postimg.cc/wjZJKFHw/Skirtgoldentux(189).jpg",
+"https://i.postimg.cc/vHXLKWc7/Skirtgoldentux(19).jpg",
+"https://i.postimg.cc/GmVY0zrg/Skirtgoldentux(190).jpg",
+"https://i.postimg.cc/CxXDyJYQ/Skirtgoldentux(191).jpg",
+"https://i.postimg.cc/jSmNVvKm/Skirtgoldentux(192).jpg",
+"https://i.postimg.cc/3xVpM97z/Skirtgoldentux(193).jpg",
+"https://i.postimg.cc/RZyfrG4r/Skirtgoldentux(194).jpg",
+"https://i.postimg.cc/8z9W8wNg/Skirtgoldentux(195).jpg",
+"https://i.postimg.cc/q7KKpnMb/Skirtgoldentux(196).jpg",
+"https://i.postimg.cc/3wGG3pJf/Skirtgoldentux(197).jpg",
+"https://i.postimg.cc/N0XXQTfz/Skirtgoldentux(198).jpg",
+"https://i.postimg.cc/yNRR79YG/Skirtgoldentux(199).jpg",
+"https://i.postimg.cc/hPK1MCP7/Skirtgoldentux(2).jpg",
+"https://i.postimg.cc/vHXLKWct/Skirtgoldentux(20).jpg",
+"https://i.postimg.cc/PqDDdZrB/Skirtgoldentux(200).jpg",
+"https://i.postimg.cc/hGmmKxPk/Skirtgoldentux(201).jpg",
+"https://i.postimg.cc/s2WW3SgC/Skirtgoldentux(202).jpg",
+"https://i.postimg.cc/PqDDdZ5j/Skirtgoldentux(203).jpg",
+"https://i.postimg.cc/q7KKpnv4/Skirtgoldentux(204).jpg",
+"https://i.postimg.cc/zfhhqWGJ/Skirtgoldentux(205).jpg",
+"https://i.postimg.cc/ZqNNJ35b/Skirtgoldentux(206).jpg",
+"https://i.postimg.cc/43ccXtxy/Skirtgoldentux(207).jpg",
+"https://i.postimg.cc/KYTTmL8K/Skirtgoldentux(208).jpg",
+"https://i.postimg.cc/43ccXtx7/Skirtgoldentux(209).jpg",
+"https://i.postimg.cc/dtnmf8L9/Skirtgoldentux(21).jpg",
+"https://i.postimg.cc/nLmmn7h9/Skirtgoldentux(210).jpg",
+"https://i.postimg.cc/gJPZjJxz/Skirtgoldentux(211).jpg",
+"https://i.postimg.cc/FRQLzRYz/Skirtgoldentux(212).jpg",
+"https://i.postimg.cc/ydzZxdDW/Skirtgoldentux(213).jpg",
+"https://i.postimg.cc/XJ0CqJrF/Skirtgoldentux(214).jpg",
+"https://i.postimg.cc/bJjtrJZ6/Skirtgoldentux(215).jpg",
+"https://i.postimg.cc/wvcsmpN2/Skirtgoldentux(216).jpg",
+"https://i.postimg.cc/Y9fmWHFs/Skirtgoldentux(217).jpg",
+"https://i.postimg.cc/1tcNqQ6Q/Skirtgoldentux(218).jpg",
+"https://i.postimg.cc/0jkKGBdv/Skirtgoldentux(219).jpg",
+"https://i.postimg.cc/KvQrWnR9/Skirtgoldentux(22).jpg",
+"https://i.postimg.cc/BbSP5Vcq/Skirtgoldentux(220).jpg",
+"https://i.postimg.cc/BbSP5VcZ/Skirtgoldentux(221).jpg",
+"https://i.postimg.cc/sxjGPN9Q/Skirtgoldentux(222).jpg",
+"https://i.postimg.cc/HnY80h45/Skirtgoldentux(223).jpg",
+"https://i.postimg.cc/hv2z21pJ/Skirtgoldentux(224).jpg",
+"https://i.postimg.cc/rsf0fNQ5/Skirtgoldentux(225).jpg",
+"https://i.postimg.cc/MH9M9mdL/Skirtgoldentux(226).jpg",
+"https://i.postimg.cc/1RBqRys9/Skirtgoldentux(227).jpg",
+"https://i.postimg.cc/fWC9WMDt/Skirtgoldentux(228).jpg",
+"https://i.postimg.cc/J7xk7RMj/Skirtgoldentux(229).jpg",
+"https://i.postimg.cc/SNV7PWJt/Skirtgoldentux(23).jpg",
+"https://i.postimg.cc/MZ5QZzqm/Skirtgoldentux(230).jpg",
+"https://i.postimg.cc/ncLQCNhP/Skirtgoldentux(231).jpg",
+"https://i.postimg.cc/ZKDv3jWM/Skirtgoldentux(232).jpg",
+"https://i.postimg.cc/fTgSX53b/Skirtgoldentux(233).jpg",
+"https://i.postimg.cc/0yMMCmmM/Skirtgoldentux(234).jpg",
+"https://i.postimg.cc/kg66y88w/Skirtgoldentux(235).jpg",
+"https://i.postimg.cc/y8MJpdXh/Skirtgoldentux(236).jpg",
+"https://i.postimg.cc/t4K1vTt5/Skirtgoldentux(237).jpg",
+"https://i.postimg.cc/Dw9WpZdC/Skirtgoldentux(238).jpg",
+"https://i.postimg.cc/mgvcpDNn/Skirtgoldentux(239).jpg",
+"https://i.postimg.cc/xTgyZKc4/Skirtgoldentux(24).jpg",
+"https://i.postimg.cc/Z5G9sRxZ/Skirtgoldentux(240).jpg",
+"https://i.postimg.cc/SKcnBhgy/Skirtgoldentux(241).jpg",
+"https://i.postimg.cc/MG1nCS9Z/Skirtgoldentux(242).jpg",
+"https://i.postimg.cc/Gpv4WCX9/Skirtgoldentux(243).jpg",
+"https://i.postimg.cc/QMcF23f7/Skirtgoldentux(244).jpg",
+"https://i.postimg.cc/QtsFsyzK/Skirtgoldentux(245).jpg",
+"https://i.postimg.cc/63w8wmPR/Skirtgoldentux(246).jpg",
+"https://i.postimg.cc/KzF1FHW7/Skirtgoldentux(247).jpg",
+"https://i.postimg.cc/tTysyMct/Skirtgoldentux(248).jpg",
+"https://i.postimg.cc/sXyMyNLw/Skirtgoldentux(249).jpg",
+"https://i.postimg.cc/5Npqrw6G/Skirtgoldentux(25).jpg",
+"https://i.postimg.cc/bJ8Z8B5V/Skirtgoldentux(250).jpg",
+"https://i.postimg.cc/L6vBWzJM/Skirtgoldentux(26).jpg",
+"https://i.postimg.cc/vHXLKW4y/Skirtgoldentux(27).jpg",
+"https://i.postimg.cc/bwJHfst4/Skirtgoldentux(28).jpg",
+"https://i.postimg.cc/Cx1HpzqW/Skirtgoldentux(29).jpg",
+"https://i.postimg.cc/PrdQK6rp/Skirtgoldentux(3).jpg",
+"https://i.postimg.cc/zGBSYVhZ/Skirtgoldentux(30).jpg",
+"https://i.postimg.cc/RZFQxNtx/Skirtgoldentux(31).jpg",
+"https://i.postimg.cc/JzncCGX4/Skirtgoldentux(32).jpg",
+"https://i.postimg.cc/Gm2JnHDt/Skirtgoldentux(33).jpg",
+"https://i.postimg.cc/bwJHfsns/Skirtgoldentux(34).jpg",
+"https://i.postimg.cc/RZFQxNt3/Skirtgoldentux(35).jpg",
+"https://i.postimg.cc/Hkx41VMy/Skirtgoldentux(36).jpg",
+"https://i.postimg.cc/RZFQxNtJ/Skirtgoldentux(37).jpg",
+"https://i.postimg.cc/Z5RFzCNy/Skirtgoldentux(38).jpg",
+"https://i.postimg.cc/g2Jqbnhh/Skirtgoldentux(39).jpg",
+"https://i.postimg.cc/65BfzH57/Skirtgoldentux(4).jpg",
+"https://i.postimg.cc/9QMtHr9Z/Skirtgoldentux(40).jpg",
+"https://i.postimg.cc/pL6QWRQy/Skirtgoldentux(41).jpg",
+"https://i.postimg.cc/SxvLSkLR/Skirtgoldentux(42).jpg",
+"https://i.postimg.cc/SxvLSkLJ/Skirtgoldentux(43).jpg",
+"https://i.postimg.cc/Hkh0Yd08/Skirtgoldentux(44).jpg",
+"https://i.postimg.cc/nhPKFpKQ/Skirtgoldentux(45).jpg",
+"https://i.postimg.cc/wjG5qg5m/Skirtgoldentux(46).jpg",
+"https://i.postimg.cc/Njz8sB8X/Skirtgoldentux(47).jpg",
+"https://i.postimg.cc/4xSvfsvz/Skirtgoldentux(48).jpg",
+"https://i.postimg.cc/SxvLSkLC/Skirtgoldentux(49).jpg",
+"https://i.postimg.cc/15yrMW5V/Skirtgoldentux(5).jpg",
+"https://i.postimg.cc/4xSvfsvp/Skirtgoldentux(50).jpg",
+"https://i.postimg.cc/YCsNrMNN/Skirtgoldentux(51).jpg",
+"https://i.postimg.cc/T34jdfjq/Skirtgoldentux(52).jpg",
+"https://i.postimg.cc/jSF6xt6c/Skirtgoldentux(53).jpg",
+"https://i.postimg.cc/cLb7x07T/Skirtgoldentux(54).jpg",
+"https://i.postimg.cc/Njz8sB8N/Skirtgoldentux(55).jpg",
+"https://i.postimg.cc/nhPKFpKR/Skirtgoldentux(56).jpg",
+"https://i.postimg.cc/wjG5qg5G/Skirtgoldentux(57).jpg",
+"https://i.postimg.cc/vZN7Yb7j/Skirtgoldentux(58).jpg",
+"https://i.postimg.cc/13j0ms02/Skirtgoldentux(59).jpg",
+"https://i.postimg.cc/fTMf5HTm/Skirtgoldentux(6).jpg",
+"https://i.postimg.cc/pd5fy4kZ/Skirtgoldentux(60).jpg",
+"https://i.postimg.cc/PqvWN9KS/Skirtgoldentux(61).jpg",
+"https://i.postimg.cc/YSL6jZ8n/Skirtgoldentux(62).jpg",
+"https://i.postimg.cc/d0Z2DpnS/Skirtgoldentux(63).jpg",
+"https://i.postimg.cc/9fwdzK1K/Skirtgoldentux(64).jpg",
+"https://i.postimg.cc/BvPTtkNr/Skirtgoldentux(65).jpg",
+"https://i.postimg.cc/YSL6jZbK/Skirtgoldentux(66).jpg",
+"https://i.postimg.cc/R0J7qyXz/Skirtgoldentux(67).jpg",
+"https://i.postimg.cc/3w0XWVnY/Skirtgoldentux(68).jpg",
+"https://i.postimg.cc/pd5fy4qP/Skirtgoldentux(69).jpg",
+"https://i.postimg.cc/wT9QFWTJ/Skirtgoldentux(7).jpg",
+"https://i.postimg.cc/BvPTtkMq/Skirtgoldentux(70).jpg",
+"https://i.postimg.cc/jjnHCmZx/Skirtgoldentux(71).jpg",
+"https://i.postimg.cc/YSL6jZbS/Skirtgoldentux(72).jpg",
+"https://i.postimg.cc/76vgz9Wr/Skirtgoldentux(73).jpg",
+"https://i.postimg.cc/26p4WGKf/Skirtgoldentux(74).jpg",
+"https://i.postimg.cc/G20kDK5b/Skirtgoldentux(75).jpg",
+"https://i.postimg.cc/XJMw5LzV/Skirtgoldentux(76).jpg",
+"https://i.postimg.cc/ydqFRjb6/Skirtgoldentux(77).jpg",
+"https://i.postimg.cc/NMh1XDzs/Skirtgoldentux(78).jpg",
+"https://i.postimg.cc/4dCzcPSd/Skirtgoldentux(79).jpg",
+"https://i.postimg.cc/15yrMW5p/Skirtgoldentux(8).jpg",
+"https://i.postimg.cc/QtLp7myF/Skirtgoldentux(80).jpg",
+"https://i.postimg.cc/26p4WGKB/Skirtgoldentux(81).jpg",
+"https://i.postimg.cc/JnwbXx2H/Skirtgoldentux(82).jpg",
+"https://i.postimg.cc/bJXQngBn/Skirtgoldentux(83).jpg",
+"https://i.postimg.cc/PxGmDyRQ/Skirtgoldentux(84).jpg",
+"https://i.postimg.cc/j5VzfcFQ/Skirtgoldentux(85).jpg",
+"https://i.postimg.cc/d18GjCbT/Skirtgoldentux(86).jpg",
+"https://i.postimg.cc/264n7Wsv/Skirtgoldentux(87).jpg",
+"https://i.postimg.cc/QtpcJ72c/Skirtgoldentux(88).jpg",
+"https://i.postimg.cc/LXzj3Pcz/Skirtgoldentux(89).jpg",
+"https://i.postimg.cc/pXPJk0XK/Skirtgoldentux(9).jpg",
+"https://i.postimg.cc/4dzpQcD6/Skirtgoldentux(90).jpg",
+"https://i.postimg.cc/4dzpQcDv/Skirtgoldentux(91).jpg",
+"https://i.postimg.cc/50w8Szhm/Skirtgoldentux(92).jpg",
+"https://i.postimg.cc/63dCfZkf/Skirtgoldentux(93).jpg",
+"https://i.postimg.cc/gJv3HhCD/Skirtgoldentux(94).jpg",
+"https://i.postimg.cc/gJv3HhCg/Skirtgoldentux(95).jpg",
+"https://i.postimg.cc/KzntDT6p/Skirtgoldentux(96).jpg",
+"https://i.postimg.cc/hj9V1mky/Skirtgoldentux(97).jpg",
+"https://i.postimg.cc/ZRr6xNGM/Skirtgoldentux(98).jpg",
+"https://i.postimg.cc/qR82xKP9/Skirtgoldentux(99).jpg",
+"https://i.postimg.cc/85PTZQ3x/Skirtgoldentux(251).jpg",
+"https://i.postimg.cc/85PTZQ9Q/Skirtgoldentux(252).jpg",
+"https://i.postimg.cc/XJ7nsSmM/Skirtgoldentux(253).jpg",
+"https://i.postimg.cc/SsNmgF3p/Skirtgoldentux(254).jpg",
+"https://i.postimg.cc/NMfQdqSv/Skirtgoldentux(255).jpg",
+"https://i.postimg.cc/268C0RMz/Skirtgoldentux(256).jpg",
+"https://i.postimg.cc/G2hbXwVL/Skirtgoldentux(257).jpg",
+"https://i.postimg.cc/gJkGgFQc/Skirtgoldentux(258).jpg",
+"https://i.postimg.cc/FRWNqC52/Skirtgoldentux(259).jpg",
+"https://i.postimg.cc/qRb4YDHd/Skirtgoldentux(260).jpg"
     ],
     anarkali: [
-
+"https://i.postimg.cc/3Nj5htPB/anarkali(1).jpg",
+"https://i.postimg.cc/G3v1vpHb/anarkali(10).jpg",
+"https://i.postimg.cc/fWYhYbJT/anarkali(11).jpg",
+"https://i.postimg.cc/ZY6h6qCb/anarkali(12).jpg",
+"https://i.postimg.cc/v85d5mc8/anarkali(13).jpg",
+"https://i.postimg.cc/y60z0Nkx/anarkali(14).jpg",
+"https://i.postimg.cc/G3v1vpH2/anarkali(15).jpg",
+"https://i.postimg.cc/v85d5mcD/anarkali(16).jpg",
+"https://i.postimg.cc/dQGKG0Lh/anarkali(17).jpg",
+"https://i.postimg.cc/Y2QwQShm/anarkali(18).jpg",
+"https://i.postimg.cc/pVKtKdp5/anarkali(19).jpg",
+"https://i.postimg.cc/br0cPmKC/anarkali(2).jpg",
+"https://i.postimg.cc/HWbCbLVM/anarkali(20).jpg",
+"https://i.postimg.cc/BZ2G2vXK/anarkali(21).jpg",
+"https://i.postimg.cc/Pf1k1qPZ/anarkali(22).jpg",
+"https://i.postimg.cc/CMbVbKzb/anarkali(23).jpg",
+"https://i.postimg.cc/sf5R52v7/anarkali(24).jpg",
+"https://i.postimg.cc/Y2QwQSh1/anarkali(25).jpg",
+"https://i.postimg.cc/SNqbdpMM/anarkali(26).jpg",
+"https://i.postimg.cc/QxsZmrTW/anarkali(27).jpg",
+"https://i.postimg.cc/sDyCmRhS/anarkali(28).jpg",
+"https://i.postimg.cc/jdKYcr7f/anarkali(29).jpg",
+"https://i.postimg.cc/nVqtqLMy/anarkali(3).jpg",
+"https://i.postimg.cc/sDyCmRhP/anarkali(30).jpg",
+"https://i.postimg.cc/jdKYcr74/anarkali(31).jpg",
+"https://i.postimg.cc/8PDg4V6H/anarkali(32).jpg",
+"https://i.postimg.cc/pXxMCtFk/anarkali(33).jpg",
+"https://i.postimg.cc/L6RFDM1x/anarkali(35).jpg",
+"https://i.postimg.cc/ncZf2tDR/anarkali(36).jpg",
+"https://i.postimg.cc/YqkBRwWy/anarkali(37).jpg",
+"https://i.postimg.cc/hPrW33Lp/anarkali(38).jpg",
+"https://i.postimg.cc/fTZQCh9G/anarkali(39).jpg",
+"https://i.postimg.cc/zvwZNx9d/anarkali(4).jpg",
+"https://i.postimg.cc/ZKctDD8j/anarkali(40).jpg",
+"https://i.postimg.cc/L6RFDM1r/anarkali(41).jpg",
+"https://i.postimg.cc/dtBPSS2f/anarkali(42).jpg",
+"https://i.postimg.cc/Yq3Kyy6s/anarkali(43).jpg",
+"https://i.postimg.cc/CLNT66Gt/anarkali(44).jpg",
+"https://i.postimg.cc/650J11rg/anarkali(45).jpg",
+"https://i.postimg.cc/7YV8QQ1y/anarkali(46).jpg",
+"https://i.postimg.cc/zXjZPPwq/anarkali(47).jpg",
+"https://i.postimg.cc/wTV8bb5g/anarkali(48).jpg",
+"https://i.postimg.cc/4N5kFFvJ/anarkali(49).jpg",
+"https://i.postimg.cc/3Nj5htPf/anarkali(5).jpg",
+"https://i.postimg.cc/T33M8qQx/anarkali(50).jpg",
+"https://i.postimg.cc/sggdF9K3/anarkali(51).jpg",
+"https://i.postimg.cc/httWFbMD/anarkali(52).jpg",
+"https://i.postimg.cc/TY9MHHjP/anarkali(53).jpg",
+"https://i.postimg.cc/3xx5MC90/anarkali(54).jpg",
+"https://i.postimg.cc/RZZ5rQG3/anarkali(55).jpg",
+"https://i.postimg.cc/VkkQyB4d/anarkali(56).jpg",
+"https://i.postimg.cc/t44Q0tDs/anarkali(57).jpg",
+"https://i.postimg.cc/CxxTyHJD/anarkali(58).jpg",
+"https://i.postimg.cc/YCCKcf8F/anarkali(59).jpg",
+"https://i.postimg.cc/ZY6h6qCz/anarkali(6).jpg",
+"https://i.postimg.cc/K88SXrQB/anarkali(60).jpg",
+"https://i.postimg.cc/VkkQyB4C/anarkali(61).jpg",
+"https://i.postimg.cc/L88KdBvj/anarkali(62).jpg",
+"https://i.postimg.cc/JzzVwcKb/anarkali(63).jpg",
+"https://i.postimg.cc/y884qXnh/anarkali(64).jpg",
+"https://i.postimg.cc/y884qXnX/anarkali(65).jpg",
+"https://i.postimg.cc/6ppJsLzf/anarkali(66).jpg",
+"https://i.postimg.cc/vZZFRLXz/anarkali(67).jpg",
+"https://i.postimg.cc/Gmmw0JzK/anarkali(68).jpg",
+"https://i.postimg.cc/g2t9GXBh/anarkali(69).jpg",
+"https://i.postimg.cc/mZ7G7rtx/anarkali(7).jpg",
+"https://i.postimg.cc/RZprv6bK/anarkali(70).jpg",
+"https://i.postimg.cc/DwpV7JYr/anarkali(71).jpg",
+"https://i.postimg.cc/rwZ6q0YC/anarkali(72).jpg",
+"https://i.postimg.cc/8zX8TJnb/anarkali(73).jpg",
+"https://i.postimg.cc/JzYwRDdq/anarkali(74).jpg",
+"https://i.postimg.cc/0yXg9MHt/anarkali(75).jpg",
+"https://i.postimg.cc/wj4K9ybf/anarkali(76).jpg",
+"https://i.postimg.cc/DwpV7JYY/anarkali(77).jpg",
+"https://i.postimg.cc/t4v09Zmf/anarkali(78).jpg",
+"https://i.postimg.cc/HkvGTcPf/anarkali(79).jpg",
+"https://i.postimg.cc/QNcrcMHG/anarkali(8).jpg",
+"https://i.postimg.cc/x1pr9JFh/anarkali(80).jpg",
+"https://i.postimg.cc/8zX8TJnx/anarkali(81).jpg",
+"https://i.postimg.cc/52KcfYRc/anarkali(82).jpg",
+"https://i.postimg.cc/6pbsB2mJ/anarkali(83).jpg",
+"https://i.postimg.cc/Mp3kzMFJ/anarkali(84).jpg",
+"https://i.postimg.cc/JzYwRD2W/anarkali(85).jpg",
+"https://i.postimg.cc/rwZ6q0PT/anarkali(86).jpg",
+"https://i.postimg.cc/k520GJkh/anarkali(87).jpg",
+"https://i.postimg.cc/nLXyrF6g/anarkali(88).jpg",
+"https://i.postimg.cc/1z8kXmLj/anarkali(89).jpg",
+"https://i.postimg.cc/mZ7G7rtG/anarkali(9).jpg",
+"https://i.postimg.cc/BvjrbSr0/anarkali(90).jpg",
+"https://i.postimg.cc/251syksY/anarkali(91).jpg",
+"https://i.postimg.cc/LsJc59cd/anarkali(92).jpg",
+"https://i.postimg.cc/tgsKJqKG/anarkali(93).jpg",
+"https://i.postimg.cc/ZqWGnbG4/anarkali(94).jpg",
+"https://i.postimg.cc/7L5FhHFq/anarkali(95).jpg",
+"https://i.postimg.cc/8C72cp2p/anarkali(96).jpg",
+"https://i.postimg.cc/YSv50r5p/anarkali(97).jpg",
+"https://i.postimg.cc/zfysvzsv/anarkali(98).jpg",
+"https://i.postimg.cc/MGnCH6CT/anarkali(99).jpg"
+    ],
+    Kids: [
+"https://i.postimg.cc/cCKqgsgD/Kids-fashion-(1).jpg", 
+"https://i.postimg.cc/d3gbGzGK/Kids-fashion-(10).jpg",
+"https://i.postimg.cc/tJ8KFLFQ/Kids-fashion-(11).jpg",
+"https://i.postimg.cc/sxbk5t5r/Kids-fashion-(12).jpg",
+"https://i.postimg.cc/QCv2cRcZ/Kids-fashion-(13).jpg",
+"https://i.postimg.cc/Y0T5QJQr/Kids-fashion-(14).jpg",
+"https://i.postimg.cc/2ygsnPn8/Kids-fashion-(15).jpg",
+"https://i.postimg.cc/2ygsnPnj/Kids-fashion-(16).jpg",
+"https://i.postimg.cc/L47FdZwg/Kids-fashion-(17).jpg",
+"https://i.postimg.cc/gc5b96Qy/Kids-fashion-(18).jpg",
+"https://i.postimg.cc/sf8CFZqY/Kids-fashion-(19).jpg",
+"https://i.postimg.cc/QCv2cR1q/Kids-fashion-(2).jpg",
+"https://i.postimg.cc/dQXcMTpj/Kids-fashion-(20).jpg",
+"https://i.postimg.cc/T2Sv8WFc/Kids-fashion-(21).jpg",
+"https://i.postimg.cc/v8jwR6kX/Kids-fashion-(22).jpg",
+"https://i.postimg.cc/L47FdZwN/Kids-fashion-(23).jpg",
+"https://i.postimg.cc/59GWcFTK/Kids-fashion-(24).jpg",
+"https://i.postimg.cc/0531gJFB/Kids-fashion-(25).jpg",
+"https://i.postimg.cc/7PcrvTdF/Kids-fashion-(26).jpg",
+"https://i.postimg.cc/T2Sv8WBv/Kids-fashion-(27).jpg",
+"https://i.postimg.cc/J4kVRzC6/Kids-fashion-(28).jpg",
+"https://i.postimg.cc/kMZPrtLd/Kids-fashion-(29).jpg",
+"https://i.postimg.cc/zv4sT9Kp/Kids-fashion-(3).jpg",
+"https://i.postimg.cc/wTm89jYb/Kids-fashion-(30).jpg",
+"https://i.postimg.cc/15qhy31j/Kids-fashion-(31).jpg",
+"https://i.postimg.cc/GhywbmnN/Kids-fashion-(32).jpg",
+"https://i.postimg.cc/KvMSm8hw/Kids-fashion-(33).jpg",
+"https://i.postimg.cc/9F75cQj3/Kids-fashion-(34).jpg",
+"https://i.postimg.cc/TYDMT3XT/Kids-fashion-(35).jpg",
+"https://i.postimg.cc/TYDMT3Xd/Kids-fashion-(36).jpg",
+"https://i.postimg.cc/MKQ2zp8K/Kids-fashion-(37).jpg",
+"https://i.postimg.cc/SNMFmxpj/Kids-fashion-(38).jpg",
+"https://i.postimg.cc/15qhy3Zf/Kids-fashion-(39).jpg",
+"https://i.postimg.cc/hvNkVHTr/Kids-fashion-(4).jpg",
+"https://i.postimg.cc/gkZFG2Pw/Kids-fashion-(40).jpg",
+"https://i.postimg.cc/65vJBpN2/Kids-fashion-(41).jpg",
+"https://i.postimg.cc/vHVFGZdx/Kids-fashion-(42).jpg",
+"https://i.postimg.cc/qvHfqHkM/Kids-fashion-(43).jpg",
+"https://i.postimg.cc/rw26s28s/Kids-fashion-(44).jpg",
+"https://i.postimg.cc/FHXtzX91/Kids-fashion-(45).jpg",
+"https://i.postimg.cc/NjvhFvg5/Kids-fashion-(46).jpg",
+"https://i.postimg.cc/kgPrGPnR/Kids-fashion-(47).jpg",
+"https://i.postimg.cc/mgWxkWbM/Kids-fashion-(48).jpg",
+"https://i.postimg.cc/QdZLCZX7/Kids-fashion-(49).jpg",
+"https://i.postimg.cc/QCv2cR1m/Kids-fashion-(5).jpg",
+"https://i.postimg.cc/MpJkHJWV/Kids-fashion-(50).jpg",
+"https://i.postimg.cc/P5nGJntb/Kids-fashion-(51).jpg",
+"https://i.postimg.cc/BnfWbfqN/Kids-fashion-(52).jpg",
+"https://i.postimg.cc/t4G0JGXB/Kids-fashion-(53).jpg",
+"https://i.postimg.cc/wjYKMY6W/Kids-fashion-(54).jpg",
+"https://i.postimg.cc/13GkN7tD/Kids-fashion-(55).jpg",
+"https://i.postimg.cc/0yYTJXQd/Kids-fashion-(56).jpg",
+"https://i.postimg.cc/7Z3FTt6n/Kids-fashion-(57).jpg",
+"https://i.postimg.cc/fRcG0qLv/Kids-fashion-(58).jpg",
+"https://i.postimg.cc/qvsPCDRL/Kids-fashion-(59).jpg",
+"https://i.postimg.cc/7hjFSp0s/Kids-fashion-(6).jpg",
+"https://i.postimg.cc/VkqxbZ6K/Kids-fashion-(60).jpg",
+"https://i.postimg.cc/YC65mD9n/Kids-fashion-(61).jpg",
+"https://i.postimg.cc/VkqxbZ6h/Kids-fashion-(62).jpg",
+"https://i.postimg.cc/Gt6WvZGg/Kids-fashion-(7).jpg",
+"https://i.postimg.cc/T1BznZgH/Kids-fashion-(8).jpg",
+"https://i.postimg.cc/8cx2LqM0/Kids-fashion-(9).jpg"
     ]
 };
 
 
 
-// If you have 20 Skirts named 'skirt1.jpg', 'skirt2.jpg' in your images folder:
-for (let i = 1; i <= 260; i++) {
-    inventory.skirts.push(`skirts/Skirtgoldentux${i}.jpeg`);
-}
-
-// If you have 30 Anarkalis named 'anarkali1.jpg', etc. in your images folder:
-for (let i = 1; i <= 99; i++) {
-    inventory.anarkali.push(`anarkali kurti/anarkali${i}.jpeg`);
-}
 
 
 const grid = document.getElementById('product-grid');
-const myNumber = "9509018314";
+const myNumber = "+919509018314";
 let cart = [];
 
 // --- 1. UNIQUE NAME GENERATOR ---
@@ -305,17 +716,27 @@ function renderProducts(categoryFilter = 'all') {
     const grid = document.getElementById('product-grid');
     grid.innerHTML = ''; 
 
-    let globalIndex = 0; // Ensures every dress in the whole shop gets a unique name
+    let globalIndex = 0; 
 
     for (const category in inventory) {
         inventory[category].forEach((link, index) => {
-            // Check if we should show this category
             if (categoryFilter === 'all' || categoryFilter === category) {
                 const card = document.createElement('div');
                 card.className = 'product-card';
                 
-                // Get the big 3-word luxury name
                 const uniqueName = generateUniqueName(globalIndex);
+
+                // --- SETTING KIDS SPECIFIC RULES ---
+                let price = 650;
+                let promoText = "Buy 3 for ₹1250";
+                let fabricText = "Luxury Edit"; 
+
+                // We check for "Kids" because your inventory uses a capital "K"
+                if (category === 'Kids') {
+                    price = 500;
+                    promoText = "Buy 3 for ₹1000";
+                    fabricText = "👗 Fabric: Premium Cotton";
+                }
 
                 card.innerHTML = `
                     <div class="product-img">
@@ -324,16 +745,20 @@ function renderProducts(categoryFilter = 'all') {
                     </div>
                     <div class="product-info-overlay">
                         <h3>${uniqueName}</h3>
+                        <p style="font-size: 0.75rem; color: #d4af37; margin-bottom: 5px; font-weight: bold;">${fabricText}</p>
+                        
                         <div class="price-box">
-                            <p class="price">₹650</p>
-                            <p class="promo-text">Buy 3 for ₹1250</p>
+                            <p class="price">₹${price}</p>
+                            <p class="promo-text">${promoText}</p>
                         </div>
-                        <button class="add-to-cart-btn" onclick="addToCart('${uniqueName}', 650, '${link}')">Add to Bag</button>
+                        
+                        <button class="add-to-cart-btn" onclick="addToCart('${uniqueName}', ${price}, '${link}', '${category}')">
+                            Add to Bag
+                        </button>
                     </div>
                 `;
                 grid.appendChild(card);
             }
-            // Increase index regardless of filter so names stay "locked" to the image
             globalIndex++; 
         });
     }
@@ -371,33 +796,52 @@ function updateUI() {
     list.innerHTML = "";
     
     let total = 0;
-    let itemCount = cart.length;
 
-    // Apply Client's Pricing Rules
-    if (itemCount === 1) {
-        total = 650;
-    } else if (itemCount === 2) {
-        total = 1050;
-    } else if (itemCount >= 3) {
-        total = 1250 + (itemCount - 3) * 400; 
+    // 1. Separate the items by type
+    // Items are marked as 'Kids' when they are added from the Kids category
+    let kidsItems = cart.filter(item => item.type === 'Kids');
+    let adultItems = cart.filter(item => item.type !== 'Kids');
+
+    let kidsCount = kidsItems.length;
+    let adultCount = adultItems.length;
+
+    // 2. Calculate Kids Total (₹500 / ₹800 / ₹1000)
+    if (kidsCount === 1) {
+        total += 500;
+    } else if (kidsCount === 2) {
+        total += 800;
+    } else if (kidsCount >= 3) {
+        // ₹1000 for the first three, then ₹333 for each extra
+        total += 1000 + (kidsCount - 3) * 333; 
+    }
+
+    // 3. Calculate Adult/Women Total (₹650 / ₹1050 / ₹1250)
+    if (adultCount === 1) {
+        total += 650;
+    } else if (adultCount === 2) {
+        total += 1050;
+    } else if (adultCount >= 3) {
+        // ₹1250 for the first three, then ₹415 for each extra
+        total += 1250 + (adultCount - 3) * 415; 
     }
     
+    // 4. Draw the Cart Items on the screen
     cart.forEach((item, index) => {
         list.innerHTML += `
             <div class="cart-item">
                 <img src="${item.img}" class="cart-item-img">
                 <div class="cart-item-info">
                     <p>${item.name}</p>
-                    <span>Selected</span>
+                    <span style="color: #d4af37;">${item.type === 'Kids' ? 'Kids Edition' : 'Luxury Edition'}</span>
                 </div>
                 <span class="remove-btn" onclick="removeFromCart(${index})">Remove</span>
             </div>
         `;
     });
     
-    totalDisplay.innerText = total;
+    // Math.round ensures you don't show decimals like ₹2333.333
+    totalDisplay.innerText = Math.round(total);
 }
-
 
 function toggleCart() {
     document.getElementById('cart-sidebar').classList.toggle('active');
@@ -443,21 +887,6 @@ window.onload = function() {
     }
 }
 
-
-
-function filterSuits() {
-    const input = document.getElementById('suitSearch').value.toLowerCase();
-    const cards = document.getElementsByClassName('product-card');
-
-    for (let i = 0; i < cards.length; i++) {
-        const title = cards[i].getElementsByTagName('h3')[0].innerText.toLowerCase();
-        if (title.includes(input)) {
-            cards[i].style.display = ""; // Show
-        } else {
-            cards[i].style.display = "none"; // Hide
-        }
-    }
-}
 
 // Mobile Search Toggle Logic
 const searchBtn = document.getElementById('search-toggle');
